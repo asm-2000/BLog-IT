@@ -1,0 +1,59 @@
+
+.navbar_box1
+{
+   background-color: white;
+   display: flex;
+   flex-direction: row;
+   min-height: 4em;
+   align-items: center;
+   position: sticky;
+   top: 0;
+   
+}
+.navbar_box1_1
+{
+  width: 25%;
+  align-items: center;
+}
+.navbar_box1_2
+{
+  width: 75%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.nav_links
+{
+  color: rgb(80, 80,80);
+  text-decoration: none;
+  font-size: medium;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+.nav_links:hover
+{
+  color: rgb(80, 80,80);
+  background-image: linear-gradient(to bottom right, #a8a8ff,rgb(255, 255, 255));
+}
+.home_logo
+{
+  margin-left: 20px;
+}
+.home_logo:hover
+{
+ animation: home_logo_animation 4s infinite;
+}
+.nav_line{
+  margin-top: 0px;
+  width: 99.9%;
+  color:rgb(80, 80, 80);
+}
+@keyframes home_logo_animation {
+  25%{transform: rotate(180deg);}
+  50%{transform: rotate(0deg)}
+  75%{transform: rotate(-180deg)}
+  100%{transform: rotate(0deg)}
+}

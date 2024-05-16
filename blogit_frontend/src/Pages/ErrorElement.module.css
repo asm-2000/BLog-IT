@@ -1,0 +1,15 @@
+.root_div
+{
+    min-height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.errorPart
+{
+    height: max-content;
+    width: max-content;
+    text-align: center;
+    justify-content: baseline;
+}

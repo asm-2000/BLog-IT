@@ -1,0 +1,23 @@
+.root_div
+{
+    height: fit-content;
+    width: auto;
+    /* padding: 1em; */
+    padding-left: 2em;
+    padding-right: 2em;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;   
+}
+.blogs{
+    display: flex;
+    flex-direction: column;
+}
+.bloggrid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 1em;
+}
+
